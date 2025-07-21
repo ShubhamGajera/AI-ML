@@ -13,3 +13,9 @@ print('    S   G    G')
 print('    S   G    G')
 print('SSSSS   GGGGGG')
 
+#5 Snali mail
+print('21 July 2025')
+print('happy.......')
+print('want to become AI/ML Engineering')
+print('Stay consistent and stay focuesd')
+print('😎')
