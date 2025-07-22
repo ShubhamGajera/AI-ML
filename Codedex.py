@@ -13,7 +13,7 @@ print('    S   G    G')
 print('    S   G    G')
 print('SSSSS   GGGGGG')
 
-#5 Snali mail
+#05 Snali mail
 print('21 July 2025')
 print('happy.......')
 print('want to become AI/ML Engineering')
@@ -81,3 +81,16 @@ print('😎')
 # cranky = True
 
 
+#07 Temperature
+# https://www.google.com/imgres?q=remainder%20in%20python&imgurl=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A883%2F1*PCtMZ50XVXk-wCiEssumOw.png&imgrefurl=https%3A%2F%2Fmedium.com%2F%40anay.m.tripathi%2Fthe-curious-case-of-modulo-operator-and-negative-numbers-in-python-57e243691b40&docid=Xu8ijFvy5g_AnM&tbnid=d7fVZAfhzhJqIM&vet=12ahUKEwjMmOnO6dCOAxXzma8BHcOdHWcQM3oECA0QAA..i&w=883&h=534&hcb=2&ved=2ahUKEwjMmOnO6dCOAxXzma8BHcOdHWcQM3oECA0QAA
+# https://www.google.com/imgres?q=remainder%20in%20python&imgurl=https%3A%2F%2Fblog.teclado.com%2Fcontent%2Fimages%2F2019%2F03%2F10div3-names.png&imgrefurl=https%3A%2F%2Fblog.teclado.com%2Fpythons-modulo-operator-and-floor-division%2F&docid=mKOx7Qx9WC18HM&tbnid=tNDuKHck5_LLLM&vet=12ahUKEwjMmOnO6dCOAxXzma8BHcOdHWcQM3oECBMQAA..i&w=566&h=292&hcb=2&ved=2ahUKEwjMmOnO6dCOAxXzma8BHcOdHWcQM3oECBMQAA
+# a=15
+# b=7
+# print(a%b)
+# c=10
+# d=20
+# print(d/c)
+
+f= 25
+Celsius = (f-32) / 1.8
+print(Celsius)
