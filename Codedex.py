@@ -118,7 +118,17 @@ print(bmi)
 # age=int(input('enter your age  : '))
 # print(age)
 
-a=int(input('Value of a :'))
-b=int(input('Value of b :'))
-c=(a**2 + b**2) ** 0.5
-print(c)
+# a=int(input('Value of a :'))
+# b=int(input('Value of b :'))
+# c=(a**2 + b**2) ** 0.5
+# print(c)
+
+
+# Quadratic Formula
+a = int(input('Value of a :'))
+b = int(input('Value of b :'))
+c = int(input('Value of c :'))
+root1 = (-b - ((b**2 - 4*a*c)**0.5)) / (2*a)  #can use b*b
+root2 = (-b + ((b**2 - 4*a*c)**0.5)) / (2*a)  # can use b*b
+print(root1)
+print(root2)
