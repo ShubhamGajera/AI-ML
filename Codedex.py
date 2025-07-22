@@ -111,3 +111,14 @@ print(bmi)
 
 
 # 09 User Input
+
+# Write code below 💖
+# name=input('Your name : ')
+# print(name)
+# age=int(input('enter your age  : '))
+# print(age)
+
+a=int(input('Value of a :'))
+b=int(input('Value of b :'))
+c=(a**2 + b**2) ** 0.5
+print(c)
