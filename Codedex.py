@@ -94,3 +94,17 @@ print('😎')
 f= 25
 Celsius = (f-32) / 1.8
 print(Celsius)
+
+#08 Exponents
+# Write code below 💖
+
+# a=2**2
+# print(a)
+
+m=70
+h=1.73
+# h2=1.73**2
+bmi = m / (h**2)
+# bmi2 = m / h2
+print(bmi)
+# print(bmi2)
