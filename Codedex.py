@@ -132,3 +132,36 @@ root1 = (-b - ((b**2 - 4*a*c)**0.5)) / (2*a)  #can use b*b
 root2 = (-b + ((b**2 - 4*a*c)**0.5)) / (2*a)  # can use b*b
 print(root1)
 print(root2)
+
+#10 Currency
+# Woohoo! You learned variables in Python! 🙌
+
+# Here's a recap of everything we learned in this chapter:
+
+# Data types: int, float, str, bool.
+# Arithmetic operators: +, -, *, /.
+# The % modulo finds the remainder.
+# The ** exponentiation finds the exponent.
+# The input() function is used to get user input.
+# The int() function converts a value into an integer number.
+# Let's put it all together now!
+
+# Write code below 💖
+
+a=int(input("What do you have left in pesos?"))
+b=int(input("What do you have left in soles?"))
+c=int(input("What do you have left in reais?"))
+
+d=(a/4072.87)+(b/3.55)+(c/5.58)
+
+print(d)
+
+# from github of codedex
+
+# pesos = int(input('What do you have left in pesos? '))
+# soles = int(input('What do you have left in soles? '))
+# reais = int(input('What do you have left in reais? '))
+
+# total = pesos * 0.00025 + soles * 0.28 + reais * 0.21
+
+# print(total)
