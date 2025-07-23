@@ -178,3 +178,21 @@ if num > 0.5:
   print('Heads')
 else:
   print('Tails')
+
+  a = 17
+
+# if (a%2==1):
+#       print('odd')
+# else:
+#     print('even')
+
+# 12 Grades
+
+# Write code below 💖
+
+grade=int(input("Tell Your Grade : "))
+
+if(grade >= 55):
+  print("You Passed✌️")
+else:
+  print("You failed")
