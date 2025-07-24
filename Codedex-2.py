@@ -25,3 +25,10 @@ if guess != 6:
   print('You ran out of tries.')
 else:
   print('You got it!')
+
+
+
+# 19. Detention 
+
+for i in range(101):
+  print(i , "I will not use Snapchat in class")
