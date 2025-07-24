@@ -247,3 +247,83 @@ elif(num==8):
   print("Magic 8 Ball:  Outlook not so good.")
 else:
   print("Magic 8 Ball:  Very doubtful.")
+
+
+
+# alternativ
+# # Magic 8 Ball 🎱
+# # Codédex
+
+# import random
+
+# question = input('Question:      ')
+
+# random_number = random.randint(1, 9)
+
+# if random_number == 1:
+#   answer = 'Yes - definitely'
+# elif random_number == 2:
+#   answer = 'It is decidedly so'
+# elif random_number == 3:
+#   answer = 'Without a doubt'
+# elif random_number == 4:
+#   answer = 'Reply hazy, try again'
+# elif random_number == 5:
+#   answer = 'Ask again later'
+# elif random_number == 6:
+#   answer = 'Better not tell you now'
+# elif random_number == 7:
+#   answer = 'My sources say no'
+# elif random_number == 8:
+#   answer = 'Outlook not so good'
+# elif random_number == 9:
+#   answer = 'Very doubtful'
+# else:
+#   answer = 'Error'
+  
+# print('Magic 8 Ball:  ' + answer)
+
+
+# 15. The Cyclone |
+# Logical Operators
+# One more thing that we should learn is logical operators.
+
+# Logical operators, also known as Boolean operators, combine and evaluate two conditions. They are and, or, and not operators:
+
+# and returns True if both conditions are True, and returns False otherwise.
+# or returns True if at least one of the conditions is True, and False otherwise.
+# not returns True if the condition is False, and vice versa.
+# Here are some examples:
+
+# Write code below 💖
+
+height = int(input("Height : "))
+credits = int(input("Credits : "))
+
+if height>=137 and credits >= 10:
+  print("Enjoy the ride!")
+elif credits >= 10:
+  print("You are not tall enough to ride.")
+elif height>=137:
+  print("You don't have enough credits.")
+else:
+  print("Not met either requirement.")
+
+
+# from codedex
+
+# # The Cyclone 🎢
+# # Codédex
+
+# height = int(input('What is your height (cm)? '))
+# credits = int(input('How many credits do you have? '))
+
+# if height >= 137 and credits >= 10:
+#   print("Enjoy the ride!")
+# elif height < 137 and credits >= 10:
+#   print("You are not tall enough to ride.")
+# elif credits < 10 and height >= 137:
+#   print("You don't have enough credits to ride.")
+# else:
+#   print("You are not tall enough for this ride, nor do you have enough credits.")
+
