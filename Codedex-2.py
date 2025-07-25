@@ -32,3 +32,16 @@ else:
 
 for i in range(101):
   print(i , "I will not use Snapchat in class")
+
+
+# 20. 99 Bottles
+# Write code below 💖
+
+# String concatenation
+
+for i in range(99,0,-1):
+  print(f'{i} bottles of beer on the wall')
+  print(f'{i} bottles of beer')
+  print('Take one down, pass it around')
+  print(f'{i-1} bottles of beer on the wall')
+
