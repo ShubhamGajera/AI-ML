@@ -128,3 +128,19 @@ lego_parts = [8980, 7323, 5343, 82700, 92232, 1203, 7319, 8903, 2328, 1279, 679,
 
 print(max(lego_parts))
 print(min(lego_parts))
+
+# 25. Reading List
+
+# Write code below 💖
+
+books = ['Harry Potter',
+'1984',
+'The Fault in Our Stars',
+'The Mom Test',
+'Life in Code']
+
+print(books)
+books.append('Pachinko')
+books.remove('The Fault in Our Stars')
+books.pop(1)
+print(books)
