@@ -72,3 +72,12 @@ for i in range(1,101):
 #     print('Buzz')
 #   else:
 #     print(num)
+
+
+# 22. Grocery List
+
+# Write code below 💖
+
+grocery = ['🥚 Eggs','🥑 Avocados','🍪 Cookies','🌶 Hot Pepper Jam','🫐 Blueberries','🥦 Broccoli']
+print(grocery)
+
