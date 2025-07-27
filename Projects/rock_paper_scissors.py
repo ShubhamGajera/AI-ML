@@ -8,9 +8,22 @@ print("2) ✋")
 print("3) ✌️")
 player = int(input("Pick Number..."))
 
-if (computer==1 and player==2):
+
+if(player==1 and computer==3):
+    print('You Choose ✊')
+    print('CPU Choose ✌️')
+    print('You Win..')
+elif(player==1 and computer==2):
     print('You Choose ✊')
     print('CPU Choose ✋')
+    print('CPU Win..')
+elif(player==2 and computer==1):
+    print('You Choose ✊')
+    print('CPU Choose ✋')
+    print('CPU Win..')
+elif(player==3 and computer==2):
+    print('You Choose ✌️')
+    print('CPU Choose ✋')
     print('You Win..')
-
-print("You Choose " + )
+elif(computer==1 and player==1 or computer==2 and player==2 and computer==3 and player==3):
+    print("It's a tie!")
