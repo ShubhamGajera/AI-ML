@@ -144,3 +144,22 @@ books.append('Pachinko')
 books.remove('The Fault in Our Stars')
 books.pop(1)
 print(books)
+
+
+# 26. Mixtape
+
+# Write code below 💖
+
+# 💿 Theme: Indie Travel Songs
+
+playlist = [
+  'Porches - rangerover',
+  'Mount Eerie - You Swan, Go On',
+  'Carolyn Polachek - Look at Me Now',
+  'Pinegrove - Darkness',
+  'LVL UP - Spirit Was',
+  'Mitski - First Love / Late Spring'
+]
+
+for i in playlist:
+  print(i)
