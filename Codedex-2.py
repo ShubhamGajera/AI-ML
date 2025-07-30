@@ -194,4 +194,5 @@ for i in things_to_do:
 # Lists have built-in methods like .append(), .insert(), .remove(), .pop().
 # We can iterate over a list using for-in.
 
-# 28. D.R.Y.
+#    28. D.R.Y.
+
