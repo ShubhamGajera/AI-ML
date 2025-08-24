@@ -83,3 +83,23 @@ def min_price(a,b):
 price_at(11)
 max_price(1,5)
 min_price(1, 5)
+
+# 33. Drive-Thru
+# Write code below 💖
+
+def get_item(x):
+  if(x==1):
+    print('🍔 Cheeseburger')
+  elif(x==2):
+    print('🍟 Fries')
+  elif(x==3):
+    print('🥤 Soda')
+  elif(x==4):
+    print('🍦 Ice Cream')
+  elif(x==5):
+    print('🍪 Cookie')
+  else:
+    print("Enter Ranfe from 1 to 5")
+
+get_item(4)
+
