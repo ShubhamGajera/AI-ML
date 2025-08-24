@@ -134,3 +134,13 @@ welcome()
 
 option = int(input('What would you like to order? '))
 print(get_item(option))
+
+# 34. Restaurants
+
+# Write code below 💖
+
+class Restaurant:
+  name = ''
+  category = ''
+  rating = 0.0
+  delivery = True
