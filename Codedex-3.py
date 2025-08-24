@@ -54,3 +54,32 @@ subtract(10,2)
 multiply(10,2)
 divide(10,2)
 exp(10,2)
+
+# 32. Stonks
+
+# Write code below 💖
+
+stock_prices = [34.68, 36.09, 34.94, 33.97, 34.68, 35.82, 43.41, 44.29, 44.65, 53.56, 49.85, 48.71, 48.71, 49.94, 48.53, 47.03, 46.59, 48.62, 44.21, 47.21]
+# print(len(stock_prices))
+
+# for i in range(0,20):
+#   print( i , stock_prices[i])
+
+def price_at(x):
+  print(stock_prices[x-1])
+
+def max_price(a,b):
+  max_list=[]
+  for i in range(a-1,b):
+    max_list.append(stock_prices[i])
+  print(max(max_list))
+
+def min_price(a,b):
+  min_list=[]
+  for i in range(a-1,b):
+    min_list.append(stock_prices[i])
+  print(min(min_list))
+
+price_at(11)
+max_price(1,5)
+min_price(1, 5)
