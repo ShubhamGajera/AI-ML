@@ -50,3 +50,22 @@ baekjeong.delivery = False
 print(vars(bobs_burgers))
 print(vars(katz_deli))
 print(vars(baekjeong))
+
+
+# 36. Favorite Cities
+
+# Write code below 💖
+
+class City:
+  def __init__(self,name,country,population,landmark):
+    self.name = name
+    self.country=country
+    self.population=population
+    self.landmark=landmark
+
+Dadar = City('dadar','gujrat',500,'near datar shop')
+London = City('London','UK','9 million','Located on the River Thames, England')
+
+
+print(vars(Dadar))
+print(vars(London))
