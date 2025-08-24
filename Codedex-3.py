@@ -30,3 +30,27 @@ def distance_to_miles(kilometer):
   print(kilometer/1.609)
 
 distance_to_miles(1000)
+
+# 31. Calculator |
+# Write code below 💖
+
+def add(a, b):
+  print(a+b)
+
+def subtract(a, b):
+  print(a-b)
+
+def multiply(a, b):
+  print(a*b)
+
+def divide(a, b):
+  print(a/b)
+
+def exp(a, b):
+  print(a**b)
+
+add(10,2)
+subtract(10,2)
+multiply(10,2)
+divide(10,2)
+exp(10,2)
