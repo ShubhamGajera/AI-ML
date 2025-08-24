@@ -23,3 +23,10 @@ def fortune():
     print("Help! I'm being held prisoner in a Chinese bakery!")
 
 fortune()
+
+# 30. Mars Orbiter
+
+def distance_to_miles(kilometer):
+  print(kilometer/1.609)
+
+distance_to_miles(1000)
