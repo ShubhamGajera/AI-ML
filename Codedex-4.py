@@ -119,3 +119,39 @@ Shubham.deposit(120)
 Shubham.display_balance()
 Shubham.withdraw(120)
 Shubham.display_balance()
+
+
+
+# 38. Pokédex
+
+# Write code below 💖
+
+class Pokemon:
+  def __init__ (self,entry,name,types,description,is_caught,level,region,height,weight):
+    self.entry=entry
+    self.name=name
+    self.types=types
+    self.description=description
+    self.is_caught=is_caught
+    self.level=level
+    self.region=region
+    self.height=height
+    self.weight=weight
+
+  def speak(self):
+    print(self.name*2)
+  
+  def display_details(self):
+    print('Entry Number :',self.entry)
+    print('Name:',self.name)
+    print('Type:',self.types)
+    print('Description:',self.description)
+    print('Caught :',self.is_caught)
+    print('Level :',self.level)
+    print('Region :',self.region)
+    print('Height :',self.height)
+    print('Weight',self.weight)
+
+Pikachu = Pokemon(25,'Pikachu','Electric','It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs. Pikachu has already been caught!','Yes',32,'Kanto','o.4 m','6 kg')
+Pikachu.speak()
+Pikachu.display_details()
